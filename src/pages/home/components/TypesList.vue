@@ -1,11 +1,6 @@
 <template>
   <div id="div_category">
-    <table
-      id="table_types"
-      bordercolor=white
-      border=3px
-      cellspacing=3px
-    >
+    <table id="table_types" bordercolor="white" border="3px" cellspacing="3px">
       <tr>
         <td>
           <div id="div_item">
@@ -13,20 +8,18 @@
             <!-- <img
               class="item_img"
               src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1543578917626&di=72363a4c942c3667f87bcdf7080c5531&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F13%2F76%2F35%2F49558PICq78_1024.jpg"
-            /> -->
+            />-->
             <!-- </div> -->
             <p>旅游景点</p>
           </div>
         </td>
         <td>
           <div class="div_item">
-
             <img
               class="item_img"
               src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1543578917626&di=72363a4c942c3667f87bcdf7080c5531&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F13%2F76%2F35%2F49558PICq78_1024.jpg"
-            />
+            >
             <p>旅游景点</p>
-
           </div>
         </td>
         <td>Savings</td>
@@ -37,8 +30,7 @@
           <!-- <img
             class="item_img"
             src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1543578917626&di=72363a4c942c3667f87bcdf7080c5531&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F13%2F76%2F35%2F49558PICq78_1024.jpg"
-          /> -->
-
+          />-->
           <p>旅游景点</p>
         </td>
         <td>
@@ -46,7 +38,7 @@
             <img
               class="item_img"
               src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1543578917626&di=72363a4c942c3667f87bcdf7080c5531&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F13%2F76%2F35%2F49558PICq78_1024.jpg"
-            />
+            >
             <p>旅游景点</p>
           </div>
         </td>
@@ -91,7 +83,7 @@ export default {
 
 .div_item {
   width: 100%;
-  height: 100%;
+  height: 50%vw;
   background: blue;
 }
 
